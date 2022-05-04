@@ -1,2 +1,2 @@
 # reactpro1
-basic react project
+basic react project for all
