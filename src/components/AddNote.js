@@ -27,7 +27,7 @@ function AddNote({handleAddNote}) {
     return (
         <div className="note new">
         {/*the text area for our input*/}
-            <textarea  cols="10" rows="8" placeholder="Type to add a new note..."
+            <textarea  cols="10" rows="8" placeholder="Type to add a new note here..."
             onChange={handleChange} value={noteText}
             ></textarea>
             <div className="note-footer">
