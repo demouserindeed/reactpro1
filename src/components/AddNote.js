@@ -5,7 +5,7 @@ function AddNote({handleAddNote}) {
     const [noteText,setNoteText] = useState('');
     {/*here I have fixed the note input limit with 300 characters , but you can change this
     limit*/}
-    const charLimit = 300;
+    const charLimit = 500;
     {/*this function is defined for the onChange event of out adding note input*/}
     const handleChange =(event)=>{
    {/*with typing the character limit will change with the input text's length*/}
